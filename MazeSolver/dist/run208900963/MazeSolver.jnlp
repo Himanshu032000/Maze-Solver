@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="MazeSolver.jnlp">
+  <information>
+    <title>MazeSolver</title>
+    <vendor>Himanshu</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="MazeSolver.jar" size="7700" download="eager" />
+  </resources>
+  <application-desc main-class="mazesolver.Test"  name="MazeSolver" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
