@@ -3,7 +3,7 @@ This project provides Java implementation of Flood Fill Algorithm which is used 
 ## Description of Flood Fill Algorithm
 As the name suggest we can use the concept of Flood means we first divide the maze in the square grid and then assign the number in increasing order from destination to starting point just like water flow from higher level to lower level, we can use this property to reach to the destination from starting point.
 As shown in figure(1) first we divide the maze in square grid and then number the destination to 0 and then increase by 1 and assign it to every adjacent block which has not assign any number yet, and do the same for rest of the part of maze assuming that there is no wall except the boundary.  
-![Image Not Available](/Images/FloodFill.png) 
+![Image Not Available](/Images/FloodFill.png){:height="24px" width="48px"} 
       Figure 1
 ![Image Not Available](/Images/Floodfill2.png)
       Figure 2
