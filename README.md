@@ -16,3 +16,7 @@ For Running the code first we have to give the image path in Gui.java file which
 Give following path of maze image which is at line 79 of Gui.java file .
         
                                 image = ImageIO.read(new File(".\\Images\\maze-20x20.png"));
+Then give the path of mouseL and mouseR image present at line number 83 and 84 in Gui.java file.
+
+                                mouseL = ImageIO.read(new File(".\\Images\\mouseL.jpg"));
+                                mouseR = ImageIO.read(new File(".\\Images\\mouseR.jpg"));
