@@ -11,3 +11,4 @@ As shown in figure(1) first we divide the maze in square grid and then number th
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;**Figure 4**<br>
 We can only encounter the boundary if we have visited the block around the boundary which is shown by blue colour in above figures. We have to choose the next move to the block which has lower value than the current one and if the boundary is encountered between these two block then we’ll update the value of the current block by adding two into the value of previous visited block and then check the consistency and update the value of the required block to maintain consistency(figure(2) & figure(4)).
 Maintain the consistency means we have to make sure that every block has the next block(no wall in between) which has the lower value then itself.    
+## Running Instructions
