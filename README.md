@@ -15,4 +15,4 @@ Maintain the consistency means we have to make sure that every block has the nex
 For Running the code first we have to give the image path in Gui.java file which is present at MazeSolver/src/mazesolver/Gui.java .
 Give following path of maze image which is at line 79 of Gui.java file .
         
-                                    image = ImageIO.read(new File(".\\Images\\maze-20x20.png"));
+                                image = ImageIO.read(new File(".\\Images\\maze-20x20.png"));
